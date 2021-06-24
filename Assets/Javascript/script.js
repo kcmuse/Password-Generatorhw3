@@ -9,7 +9,7 @@ function generatePassword() {
         var specialCriteria = confirm("Would you like your passcode to contain special characters?");
     } else {
         alert("Must enter a value between 8 - 128");
-        return "Please try again";
+        return "Incorrect value please try again";
     }
     // variables for all possible characters.
     var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -24,7 +24,7 @@ function generatePassword() {
     }
     if (lowerCriteria) {
         passContain += lowerCase
-    }
+    } 
     if (numberCriteria) {
         passContain += numbers
     }
