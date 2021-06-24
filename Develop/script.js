@@ -37,7 +37,7 @@ function generatePassword() {
         var selectOne = "Please select at least one option";
         return selectOne;
     }else {
-        alert(`Thanks for using Random password generator!\nYour password will be generated below!\nPress "Okay" to continue`);
+        alert(`Thanks for using Random password generator!\nYour password will be generated below!\nPress "Ok" to continue`);
     }
     // setting a variable for password leaving it blank to ensure only the randomly generated information can be within it.
     var password = "";
